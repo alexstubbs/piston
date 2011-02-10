@@ -1,4 +1,5 @@
 require "subclass_responsibility_error"
+require "ruby1.9_compatibility"
 
 require "piston/repository"
 require "piston/revision"
