@@ -12,4 +12,8 @@ class ::String
       self[0].chr.downcase + camelize(self)[1..1]
     end
   end
+
+  def constantize
+    ActiveSupport::Inflector.constantize(self)
+  end
 end
